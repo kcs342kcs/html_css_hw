@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <title>Weather Study</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand navbar-inverse" href="index.html">Latitude</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav navbar-nav navbar-right mr-auto">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="Plots">Plots <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="Max_Temperature.html">Max Temperature</a></li>
+                <li><a href="Humidity.html">Humidity</a></li>
+                <li><a href="Cloudiness.html">Cloudiness</a></li>
+                <li><a href="Wind_Speed.html">Wind Speed</a></li>
+              </ul>
+            <li><a href="Comparison.html">Comparison</a></li>
+            <li><a href="Data.html">Data</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+			    <div class="jumbotron">
+				  <h1 class="display-5">Summary: Latitude vs. X.</h1>
+				  <hr class="my-5">
+			    <div class="media">
+			    <div class="media-left">
+				  <p style='padding:0 15px;float:left'><img src="https://raw.githubusercontent.com/kcs342kcs/PythonAPI_Homework/master/City_Lat_vs_Max_Temp.png" class="media-object" height="240" width="240"></p>
+			    <p style='align:left'>The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analyis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+				  </br>
+				  <p style='align:left'>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.  Factors we looked at included:  temperature, cloudiness, wind speed and humidity.  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+        </div>
+			</div>
+		</div>
+	</div>
+
+            <div class="col-md-5">
+        <div class="jumbotron container-fluid">
+          <h3 class="display-4">Visualizations</h3>
+          <hr class="my-4">
+          <div>
+          <img src="https://raw.githubusercontent.com/kcs342kcs/PythonAPI_Homework/master/City_Lat_vs_Max_Temp.png" class="media-object" height="150" width="150">
+          <img src="https://raw.githubusercontent.com/kcs342kcs/PythonAPI_Homework/master/City_Lat_vs_Humidity.png" class="media-object" height="150" width="150">
+          <img src="https://raw.githubusercontent.com/kcs342kcs/PythonAPI_Homework/master/City_Lat_vs_Cloudiness.png" class="media-object" height="150" width="150">
+          <img src="https://raw.githubusercontent.com/kcs342kcs/PythonAPI_Homework/master/City_Lat_vs_Wind_Speed.png" class="media-object" height="150" width="150">
+        </div>
+</body>
+</html>
+
+
+
+
